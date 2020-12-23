@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(228, 255, 255);
+    font-family: arial;
+}
+
+.darkMode{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+.lightOn{
+    background-color: rgb(30, 126, 11);
+    color: white;
+}
+
+button{
+    border-radius: 50%;
+    background-color: rgb(221, 221, 221);
+    height: 40px;
+    font-weight: bold;
+    margin-left: 65px;
+    border: solid black 1px;
+}
+
+li{
+    display: inline;
+    padding-left: 25px;
+    text-align: center;
+}
+
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.darkMode a{
+    color: white;
+}
+
+ul{
+    background-color: rgb(181, 250, 255);
+}
+
+.darkMode ul{
+    background-color: rgb(71, 71, 71);
+}
+
+.darkMode p{
+    color: white;
+}
+
+#para{
+    width: 350px;
+    margin: 65px;
+}
+
+.buttonOff{
+    background-color: red;
+}
